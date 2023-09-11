@@ -1,0 +1,115 @@
+#layout{
+  display: grid;
+  grid-template-columns: auto auto;
+  /* height: min-content; */
+ 
+  
+}
+
+#content1{
+grid-row-start: 1;
+grid-row-end: 4;
+background-color: white;
+width: 200px;
+height:780px;
+/* border: 2px blue solid; */
+/* margin: 5px; */
+}
+#content2{
+  /* margin: 5px; */
+ height: min-content;
+ margin-bottom: 10px;
+ 
+}
+#content3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+ /* margin: 10px; */
+ /* margin-right: -50px; */
+  height: 300px;
+  
+  height: min-content;
+}
+
+#content4{
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin: 5px;
+  width: 578px;
+  /* border:2px solid green; */
+}
+
+#flex{
+  display: flex;
+  column-gap: 10px;
+  margin: 25px;
+  font-weight: 720;
+}
+
+#icons{
+  color: rgb(139, 135, 135);
+
+ margin-left: 480px;
+ width: 30px;
+ height: 30px;
+ padding: 5px;
+ background-color: white;
+ 
+}
+#searchbox{
+  position: absolute;
+  /* width: 590px; */
+  height: 30px;
+  text-align:center;
+  width: 400px;
+  
+}
+#searchicons{
+  position: relative ;
+  width: 20px;
+  height: 20px;
+  
+  left: 10px;
+}
+#table{
+  text-align: center;
+  margin-right: 10px;
+
+}
+.list{
+ color: blue;
+}
+.icon1{
+  display: flex;
+  column-gap: 10px;
+ font-size: large;
+  margin: 20px;
+}
+#list1{
+  color: blue;
+}
+#list{
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+#heading{
+  margin-left: 15px;
+}
+@media screen and (min-width:300px) {
+  #layout,.container-sm,.container-xl{
+  background-color: rgb(182, 179, 179) ;
+  }
+}
+@media screen and  (max-width:1080px) {
+  #layout,.container-sm,.container-xl{
+  background-color: rgb(182, 179, 179);
+  }
+}
+.flex1{
+  width: 120px;
+}
+.container-xl{
+  background: rgb(214, 212, 212);
+}
