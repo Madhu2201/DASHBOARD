@@ -4,7 +4,7 @@ import Checkboxs from './checkboxs';
 function Tables() {
   return (
     
-    <Table striped bordered hover size="sm" id='table' >
+    <Table striped bordered hover size="sm" id='table1' >
       <thead>
         <tr>
           <th><Checkboxs/></th>
