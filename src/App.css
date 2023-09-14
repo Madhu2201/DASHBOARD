@@ -1,10 +1,10 @@
-#layout{
+ #layout{
   display: grid;
   grid-template-columns: auto auto;
   /* height: min-content; */
  
   
-}
+} 
 
 #content1{
 grid-row-start: 1;
@@ -97,19 +97,10 @@ height:780px;
 #heading{
   margin-left: 15px;
 }
-@media screen and (min-width:300px) {
-  #layout,.container-sm,.container-xl{
-  background-color: rgb(182, 179, 179) ;
-  }
-}
-@media screen and  (max-width:1080px) {
-  #layout,.container-sm,.container-xl{
-  background-color: rgb(182, 179, 179);
-  }
-}
+
 .flex1{
   width: 120px;
 }
 .container-xl{
   background: rgb(214, 212, 212);
-}
+} 
